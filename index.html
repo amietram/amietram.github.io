@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymPeak</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #9eadb0; /* Light grey background */
+            color: #333; /* Darker text color for better contrast */
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #006666; /* Dark blue heading color */
+            margin-top: 0;
+            font-size: 48px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft text shadow */
+        }
+        p {
+            color: #666; /* Dark gray text color */
+            margin-top: 30px;
+            font-size: 20px;
+            line-height: 1.8;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #4a90e2; /* Blue button color */
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            border-radius: 30px;
+            margin-top: 50px;
+            transition: background-color 0.3s, transform 0.3s;
+            font-size: 18px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Soft shadow */
+        }
+        .btn:hover {
+            background-color: #2e6eb5; /* Darker blue on hover */
+            transform: translateY(-3px); /* Move button slightly up on hover */
+        }
+        .video-container {
+            margin-top: 60px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+        }
+        .video {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to GymPeak</h1>
+        <p>Are you tired of waiting in long lines for gym equipment? Do you feel uncomfortable working out in crowded gyms? GymPeak is here to help!</p>
+        <p>Our innovative solution predicts peak demand hours at gyms, allowing you to plan your workouts more effectively and avoid crowded times.</p>
+        <div class="video-container">
+            <video class="video" autoplay loop muted>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <a href="second_page.html" class="btn">See Our Solution</a>
+    </div>
+</body>
+</html>
